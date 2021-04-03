@@ -9,9 +9,15 @@
 
 #include <iostream>
 
+// Ahora incluiremos la función principal "main".
+
 int main(void)
 {
     // insert code here...
-
+    int m = 1;
+    int n = 100;
+    std::cout <<"m: "<< m << "\n";
+    std::cout <<"n: "<< n << "\n";
     return 0;
 }
+
