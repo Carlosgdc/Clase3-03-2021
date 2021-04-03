@@ -18,6 +18,11 @@ int main(void)
     int n = 100;
     std::cout <<"m: "<< m << "\n";
     std::cout <<"n: "<< n << "\n";
+    //Añadimos un bucle en donde se repitan una instrucciones para muchos datos, utilizaremos la función For.
+    for(int ii = m; ii <= n; ii = ii+1 )
+    {
+        std::cout << ii << "\n";
+    }
     return 0;
 }
 
